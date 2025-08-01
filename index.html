@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The GZ Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&family=Comic+Neue:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Game Start Screen -->
+        <div id="startScreen" class="screen active">
+            <div class="title-container">
+                <h1 class="main-title">🎉 Mümkansız GZ Quizi 🎉</h1>
+            </div>
+        
+            <button id="startButton" class="btn btn-primary">Quize Basla!</button>
+        </div>
+
+        <!-- Game Screen -->
+        <div id="gameScreen" class="screen">
+            <div class="lives-display">
+                <div class="heart" id="gameHeart1">❤️</div>
+                <div class="heart" id="gameHeart2">❤️</div>
+            </div>
+            
+            <div class="question-container">
+                <h2 id="questionText" class="question-text"></h2>
+                
+                <div class="options-container" id="optionsContainer">
+                    <!-- Options will be dynamically added here -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Game Over Screen -->
+        <div id="gameOverScreen" class="screen">
+            <div class="game-over-content">
+                <h1 class="game-over-title">😵 Oyun Bitti 😵</h1>
+                <p class="game-over-message">Cortladın karım!</p>
+                <div class="sad-face">😢</div>
+                <button id="restartButton" class="btn btn-primary">Yeniden Başla</button>
+            </div>
+        </div>
+
+        <!-- Victory Screen -->
+        <div id="victoryScreen" class="screen">
+            <div class="victory-content">
+                <h1 class="victory-title">🎊 Tebrikler! 🎊</h1>
+                <p class="victory-message">Bravo karım! Gelecekte daha saçma sapan Quizlerde görüsmek üzere! Seni çok seviyorum!</p>
+                <div class="celebration">🎉🎈🎊</div>
+                <button id="playAgainButton" class="btn btn-primary">Tekrar Oyna</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
