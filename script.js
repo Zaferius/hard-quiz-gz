@@ -2,52 +2,45 @@
 const questions = [
   {
     number: "?",
-    question: "Cevap gerçekten büyük.",
-    options: ["CEVAP", "Gerçekten büyük", "∞", "Fil"],
-    correct: "Fil",
-    specialStyling: { answerButtonSize: "extra-large" }
+    question: "Türkiye'nin en düz ili hangisidir?",
+    options: ["Düzce", "Yukarıgökdere", "Asagigökdere", "Kayısdagi"],
+    correct: "Düzce"
   },
   {
     number: "?",
-    question: "<span style='color: #22c55e; font-weight: bold;'>2 Aralık</span>'tan sonra ne gelir?",
-    options: ["3 Aralık", "Kesme işareti", "Soru işareti", "Boşluk"],
-    correct: "Kesme işareti"
+    question: "Neden \"çay\" içilir?",
+    options: ["Çünkü kasıklanmaz", "Çünkü sıcak", "Çünkü Türküz", "Çünkü bardakta"],
+    correct: "Çünkü kasıklanmaz"
   },
   {
     number: "?",
-    question: "Husu rengi hangi renktir?",
-    options: ["Çekmeköy", "İslam yesili", "Essela", "San Sebastian"],
-    correct: "İslam yesili"
+    question: "1 limon + 1 limon + 0/5 limon = ?",
+    options: ["2 limon", "Limonata", "Limonlimonlim", "Fanta"],
+    correct: "Limonlimonlim"
   },
   {
     number: "?",
-    question: "Tisab koç pavec",
-    options: ["Eti Gong", "Bargello 212", "Basit", "Çok basit"],
-    correct: "Çok basit"
+    question: "\"Çok da sey yapmamak lazım\" cümlesi, tam olarak neyi çok daha sey yapmamak anlamına gelir?",
+    options: ["Her seyi", "Hiçbir seyi", "Sey'i", "Duruma göre degisir"],
+    correct: "Duruma göre degisir"
   },
   {
     number: "?",
-    question: "Revani tatlısı için hangisi elzemdir?",
-    options: ["Limon", "Sherbet", "iPhone 11 64 GB", "Dacia Sandero 2011"],
-    correct: "Sherbet"
+    question: "\"Counter Strike oyunundaki ikonik beyaz \"el topu\" lakaplı tabancanın adı nedir?",
+    options: ["Glock 17", "Desert Eagle", "Bargello", "Revani 1911"],
+    correct: "Desert Eagle"
   },
   {
     number: "?",
-    question: "İnsanlığın amacı nedir?",
-    options: ["Başarılı driftler atmak", "KFC Double Zinger menü yemek", "IKEA Dolap montajı", "Bej"],
-    correct: "IKEA Dolap montajı"
+    question: "\"Asagıdaki yiyeceklerin hangisinin adı Zafer dilinde çörektir?\"",
+    options: ["Nescafe Xpress Original", "Pisi", "File market berliner", "Vantilatör pervanesi"],
+    correct: "Pisi"
   },
   {
     number: "?",
-    question: "12 nin karekökü?",
-    options: ["2Kök3", "92345", "Beyaz sirke + Limon karışımı", "Bargello 212"],
-    correct: "2Kök3"
-  },
-  {
-    number: "?",
-    question: "Bu kaçıncı soru?",
-    options: ["6", "9", "8", "1"],
-    correct: "8"
+    question: "\"Gonca'nın beğendiği bir tatlıya karşı sarfettiği ilk cümle?\"",
+    options: ["Çok iyi mk", "Çok lezzetli bir tatlı!", "Bunnnuu seevvdikkkk", "Kısır da b*k gibiymiş"],
+    correct: "Bunnnuu seevvdikkkk"
   }
 ];
 
