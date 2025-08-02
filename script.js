@@ -38,7 +38,7 @@ const questions = [
   },
   {
     number: "?",
-    question: "\"Gonca'nın beğendiği bir tatlıya karşı sarfettiği ilk cümle?\"",
+    question: "\"Gonca'nın begendigi bir tatlıya karsı sarfettigi ilk cümle?\"",
     options: ["Çok iyi mk", "Çok lezzetli bir tatlı!", "Bunnnuu seevvdikkkk", "Kısır da b*k gibiymiş"],
     correct: "Bunnnuu seevvdikkkk"
   }
